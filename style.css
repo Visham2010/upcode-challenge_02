@@ -1,0 +1,138 @@
+:root {
+    --background-color-1: #313131;
+    --common-height :65px 
+   }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    min-height: 100vh;
+   
+    position:relative;
+   
+   }
+
+.container {
+    --primary-color: #11e654;
+    border-left: 6px solid var(--primary-color);
+    width: 550px;
+    margin: 50px auto 0;
+    padding: 20px 0 20px 20px;
+
+}
+
+.title {
+    font-weight: 400;
+    font-family: 'inter';
+    margin: 30px 0;
+}
+
+.description {
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    margin: 10px 0;
+}
+
+.description.first-para {
+    margin-top: 0;
+}
+
+.project-list {
+    padding: 0 0 0 20px;
+}
+
+.project-list li {
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.quote {
+    font-family: 'Inria Serif', serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 17px;
+    margin: 0 100px;
+}
+
+.project-list li a {
+    font-family: 'inter';
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 13px;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    height: var(--common-height);
+    justify-content: space-between;
+    background-color: #313131;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 65px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    height: 65px;
+    display: flex;
+    width: 90px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-red {
+    background-color: #AA3B3B;
+
+}
+
+.box-blue {
+    background-color: #004A8F;
+}
+
+.box-yellow {
+    background-color: #A8AB00;
+}
+
+.box-green {
+    background-color: #457C00;
+}
+
+h2 {
+    padding-left: 15px;
+    color: white;
+}
+
+footer{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    background-color:var(--background-color-1);
+    color: white;
+    margin-top: 45px;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(100%);
+    width: 100%;
+    height: var(--common-height);
+}
+
